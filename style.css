@@ -493,7 +493,13 @@ h3 {
           background-color: transparent;
           border: none;
           color: #ffffff;
-          cursor: pointer; }
+          cursor: pointer; 
+}
+
+.logo-area {
+  text-align: center;
+}
+
   .header-area .logo-area {
     position: relative;
     z-index: 1;
@@ -936,18 +942,23 @@ h3 {
 .footer-area {
   position: relative;
   z-index: 1;
-  padding: 50px 0; }
-  .footer-area .copywrite-text {
-    font-size: 12px;
-    margin-bottom: 0;
-    color: #666666;
-    font-weight: 400; }
-    .footer-area .copywrite-text a {
-      color: #666666;
-      font-size: 12px;
-      font-weight: 400; }
-      .footer-area .copywrite-text a:hover, .footer-area .copywrite-text a:focus {
-        color: #C6D4AC; }
+  padding: 10px 0; 
+  text-align: center;
+}
+.copywrite-text {
+  font-size: 12px;
+  margin-bottom: 0;
+  color: #666666;
+  font-weight: 400; 
+}
+.copywrite-text a {
+  color: #666666;
+  font-size: 12px;
+  font-weight: 400; 
+}
+.footer-area .copywrite-text a:hover, .footer-area .copywrite-text a:focus {
+  color: #C6D4AC; 
+}
   .footer-area .footer-nav {
     position: relative;
     z-index: 1;
