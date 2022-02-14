@@ -574,7 +574,8 @@ h3 {
 /* :: 5.0 Hero Area CSS */
 .single-slide {
   position: relative;
-  z-index: 1; }
+  z-index: 1; 
+}
   .single-slide::after {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;

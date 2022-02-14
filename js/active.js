@@ -54,7 +54,7 @@
             dots: false,
             autoplay: true,
             center: true,
-            autoplayTimeout: 7000,
+            autoplayTimeout: 4000,
             smartSpeed: 1000,
             responsive: {
                 0: {
